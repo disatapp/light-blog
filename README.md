@@ -14,4 +14,4 @@ I was ment as a learning oppertunity, but it also has a practical use.
 This project was initially made as part of a website. But later parts of the website was broken down to create this package.
 The challenging part of this project was learning to create a package from exsiting code.
 The project had be created before and some codes had to be tweaked for it to work inside the package. Laravel has many different components and it became a challenge to debug. 
-Overall, I learn how to use Vuejs, create a composer package and got more practice using Vue
+Overall, I learn how to use Vuejs, create a composer package and got more practice using with laravel.
