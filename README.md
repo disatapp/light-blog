@@ -1,5 +1,5 @@
 # lightBlog
-A light CMS package composer package built on Laravel and vuejs in the frontend. 
+A light CMS composer package built on Laravel and uses vuejs in the frontend. 
   
 ## Project Status
 This project is finish. More features might be added in the future. However, for now this project is mean to be a demostration.
