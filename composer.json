@@ -1,0 +1,22 @@
+{
+    "name": "disatapp/light-blog",
+    "description": "A light cms built with laravel and uses vuejs on the frontend",
+    "type": "project",
+    "require": {
+        "davejamesmiller/laravel-breadcrumbs": "5.x",
+        "eloquent/composer-npm-bridge": "^4.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavin Disatapundhu",
+            "email": "disatapp@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Pavinbd\\LightBlog\\": "src/"
+        }
+    }
+}
