@@ -1,6 +1,6 @@
 <?php
 
-namespace Pavinbd\LightBlog;
+namespace Disatapp\LightBlog;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -29,7 +29,7 @@ class User extends Authenticatable
 
     public function post()
     {
-        return $this->hasMany('Pavinbd\LightBlog\Posts');
+        return $this->hasMany('Disatapp\LightBlog\Posts');
     }
 }
 

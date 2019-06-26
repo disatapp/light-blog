@@ -1,11 +1,11 @@
 <?php
 
-namespace Pavinbd\LightBlog\Http\Controllers;
+namespace Disatapp\LightBlog\Http\Controllers;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
-use Pavinbd\LightBlog\Posts;
-use Pavinbd\LightBlog\Therapist;
+use Disatapp\LightBlog\Posts;
+use Disatapp\LightBlog\Therapist;
 use App\Http\Controllers\Controller;
 
 class DashboardController extends Controller

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pavinbd\LightBlog\Http\Controllers\Auth;
+namespace Disatapp\LightBlog\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Pavinbd\LightBlog\Http\Controllers;
+namespace Disatapp\LightBlog\Http\Controllers;
 
-use Pavinbd\LightBlog\Posts;
+use Disatapp\LightBlog\Posts;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
-use Pavinbd\LightBlog\Tag;
+use Disatapp\LightBlog\Tag;
 use App\Http\Controllers\Controller;
 
 //DISPLAYING POST

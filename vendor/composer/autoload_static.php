@@ -25,7 +25,7 @@ class ComposerStaticInit94642b764b7dfbace384cedc6fec6340
             'Psr\\SimpleCache\\' => 16,
             'Psr\\Log\\' => 8,
             'Psr\\Container\\' => 14,
-            'Pavinbd\\LightBlog\\' => 18,
+            'Disatapp\\LightBlog\\' => 18,
         ),
         'O' => 
         array (
@@ -89,7 +89,7 @@ class ComposerStaticInit94642b764b7dfbace384cedc6fec6340
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'Pavinbd\\LightBlog\\' => 
+        'Disatapp\\LightBlog\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

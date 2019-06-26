@@ -1,6 +1,6 @@
 <?php
 
-namespace Pavinbd\LightBlog;
+namespace Disatapp\LightBlog;
 
 use Illuminate\Database\Eloquent\Model;
 

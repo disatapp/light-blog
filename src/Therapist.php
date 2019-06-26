@@ -1,15 +1,15 @@
 <?php
 //Last Reviewed:
 
-namespace Pavinbd\LightBlog;
+namespace Disatapp\LightBlog;
 
 use Illuminate\Http\Request;
-use Pavinbd\LightBlog\Taggable;
-use Pavinbd\LightBlog\Tag;
+use Disatapp\LightBlog\Taggable;
+use Disatapp\LightBlog\Tag;
 
 class Therapist {
 
-    private $postPath = 'Pavinbd\LightBlog\Posts';
+    private $postPath = 'Disatapp\LightBlog\Posts';
 
     // TODO: add success or failure
     private function addTagCount($tag_id){

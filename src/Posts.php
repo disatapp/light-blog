@@ -1,6 +1,6 @@
 <?php
 
-namespace Pavinbd\LightBlog;
+namespace Disatapp\LightBlog;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -17,7 +17,7 @@ class Posts extends Model
     ];
     public function user()
     {
-        return $this->belongsTo('Pavinbd\LightBlog\User');
+        return $this->belongsTo('Disatapp\LightBlog\User');
     }
 
     public function tags()

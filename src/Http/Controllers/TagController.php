@@ -1,10 +1,10 @@
 <?php
 
-namespace Pavinbd\LightBlog\Http\Controllers;
+namespace Disatapp\LightBlog\Http\Controllers;
 
-use Pavinbd\LightBlog\Tag;
-use Pavinbd\LightBlog\Taggable;
-use Pavinbd\LightBlog\Therapist;
+use Disatapp\LightBlog\Tag;
+use Disatapp\LightBlog\Taggable;
+use Disatapp\LightBlog\Therapist;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Illuminate\View\View;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Pavinbd\LightBlog\Http\Controllers;
+namespace Disatapp\LightBlog\Http\Controllers;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
-use Pavinbd\LightBlog\Photos;
+use Disatapp\LightBlog\Photos;
 use App\Http\Controllers\Controller;
 
 class PhotoController extends Controller

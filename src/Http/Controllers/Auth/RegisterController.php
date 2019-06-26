@@ -1,8 +1,8 @@
 <?php
 
-namespace Pavinbd\LightBlog\Http\Controllers\Auth;
+namespace Disatapp\LightBlog\Http\Controllers\Auth;
 
-use Pavinbd\LightBlog\User;
+use Disatapp\LightBlog\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -58,7 +58,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \Pavinbd\LightBlog\User
+     * @return \Disatapp\LightBlog\User
      */
     protected function create(array $data)
     {
