@@ -1,4 +1,4 @@
-# lightBlog
+# Light Blog
 A light CMS composer package built on Laravel and uses vuejs in the frontend. 
   
 ## Project Status
