@@ -18,6 +18,16 @@
         "psr-4": {
             "Disatapp\\LightBlog\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Disatapp\\LightBlog\\LightBlogProvider"
+            ],
+            "aliases": {
+                "LightBlog": "Disatapp\\LightBlog\\Facades\\LightBlog"
+            }
+        }
     }
 
 }
