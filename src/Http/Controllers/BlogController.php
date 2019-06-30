@@ -61,6 +61,7 @@ class BlogController extends Controller
      *
      * @return void
      */
+    // TODO: don't hard code
     public function reBlog(){
         return redirect(Lang::getLocale().'/blog?page=1');
     }
