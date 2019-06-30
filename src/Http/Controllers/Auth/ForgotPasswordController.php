@@ -17,7 +17,7 @@ class ForgotPasswordController extends Controller
     | your application to your users. Feel free to explore this trait.
     |
     */
-
+    use Disatapp\LightBlog;
     use SendsPasswordResetEmails;
 
     /**
@@ -29,4 +29,15 @@ class ForgotPasswordController extends Controller
     {
         $this->middleware('guest');
     }
+
+    /**
+     * Display the form to request a password reset link.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function showLinkRequestForm()
+    {
+        return view('lightBlog::auth.passwords.email');
+    }
+
 }
