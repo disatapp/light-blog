@@ -1,4 +1,4 @@
-@extends('layouts.site')
+@extends('lightBlog::layouts.site')
 
 @section('title', 'Blog')
 
