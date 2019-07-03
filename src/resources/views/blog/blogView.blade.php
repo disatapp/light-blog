@@ -1,4 +1,4 @@
-@extends('lightBlog::layouts.site')
+@extends('lightBlog::layouts.blog')
 
 @section('title', 'Blog')
 
@@ -43,7 +43,7 @@
         
       <div id="tbf-widget" data-hash="23db4ef6">
       </div>
-      <script src="https://lib.thebookingfactory.com/tbf-booking-widget.js"></script>
+      {{-- <script src="https://lib.thebookingfactory.com/tbf-booking-widget.js"></script> --}}
         </div>
       </div>
   </div>
