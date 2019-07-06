@@ -20,6 +20,10 @@ class LightBlogProvider extends ServiceProvider
             __DIR__ . '/config' => config_path('light-blog-demo'),
             __DIR__.'/resources/views' => base_path('resources/views'),
         ]);
+
+        $this->publishes([
+            __DIR__ . '/database/migrations' => $this->app->databasePath() . '/migrations'
+        ], 'migrations');
     }
 
     /**
