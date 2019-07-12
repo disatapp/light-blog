@@ -6,6 +6,22 @@ This project is not 100% finish. More features might be added in the future.
 
 ## Screenshots
 
+## How to install
+
+npm install
+npm run dev
+
+composer install
+php artisan vendor:publish  --tag=public --force
+
+set .env
+php composer dump-autoload -o
+php artisan config:clear
+php artisan serve
+
+add 'http://127.0.0.1:8000'; for dev
+
+
 
 ## Reflection
 The goal of the project was to create a cms for Villasanpakoi hotel website. It was an experimental project that has real world use. The project was initially built on laravel to learn the more laravel framework. 

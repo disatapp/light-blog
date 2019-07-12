@@ -1,7 +1,6 @@
 <?php
 // use BlogController;
 
-Route::get('/t/t',function(){return 'Hello World';});
 
 /*
 |--------------------------------------------------------------------------
