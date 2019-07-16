@@ -1,16 +1,4 @@
 <?php
-// use BlogController;
-
-
-/*
-|--------------------------------------------------------------------------
-| Blog routes
-|--------------------------------------------------------------------------
-*/
-
-Route::get('{locale}/blog', 'Disatapp\LightBlog\Http\Controllers\BlogController@getBlog')->name('blog');
-Route::get('{locale}/blog/{slug}', 'Disatapp\LightBlog\Http\Controllers\BlogController@showBlog')->name('blog.post');
-Route::get('{locale}/blog/tag/{slug}', 'Disatapp\LightBlog\Http\Controllers\BlogController@getBlogByTags')->name('blog.tag');
 
 /*
 |--------------------------------------------------------------------------
