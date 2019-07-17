@@ -19,11 +19,11 @@
             "Disatapp\\LightBlog\\": "src/"
         }
     },
-    "scripts": {
-        "pre-install-cmd": [
-            "npm install npm@latest -g"
-        ]
-    },
+    // "scripts": {
+    //     "pre-install-cmd": [
+    //         "npm install npm@latest -g"
+    //     ]
+    // },
     "extra": {
         "laravel": {
             "providers": [
