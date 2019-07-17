@@ -4,7 +4,6 @@
     "type": "project",
     "require": {
         "davejamesmiller/laravel-breadcrumbs": "5.x",
-        "mouf/nodejs-installer": "~1.0",
         "eloquent/composer-npm-bridge": "^4.1"
     },
     "license": "MIT",
@@ -19,6 +18,11 @@
         "psr-4": {
             "Disatapp\\LightBlog\\": "src/"
         }
+    },
+    "scripts": {
+        "pre-install-cmd": [
+            "npm install npm@latest -g"
+        ]
     },
     "extra": {
         "laravel": {
