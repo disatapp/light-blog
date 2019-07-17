@@ -3,8 +3,7 @@
     "description": "A light cms built with laravel and uses vuejs on the frontend",
     "type": "project",
     "require": {
-        "davejamesmiller/laravel-breadcrumbs": "5.x",
-        "eloquent/composer-npm-bridge": "^4.1"
+        "davejamesmiller/laravel-breadcrumbs": "5.x"
     },
     "license": "MIT",
     "authors": [
@@ -19,11 +18,6 @@
             "Disatapp\\LightBlog\\": "src/"
         }
     },
-    // "scripts": {
-    //     "pre-install-cmd": [
-    //         "npm install npm@latest -g"
-    //     ]
-    // },
     "extra": {
         "laravel": {
             "providers": [
