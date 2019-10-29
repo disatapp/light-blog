@@ -2,7 +2,7 @@
 A light CMS composer package built on Laravel and uses vuejs in the frontend. 
   
 ## Project Status
-This project is not 100% finish. More features might be added in the future.
+This project is only around 40% finish. More features might be added in the future.
 
 ## Screenshots
 
